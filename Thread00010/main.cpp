@@ -8,9 +8,9 @@ using namespace std;
 /// thread_local 이해하기
 /// </summary>
 
-int Function()
+void Function()
 {
-	return 3;
+	cout << "Function " << endl;
 }
 
 int main()
